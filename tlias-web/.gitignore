@@ -1,0 +1,9 @@
+# IDEA配置文件，不要提交
+.idea/
+*.iml
+
+# java编译后的target文件夹
+tlias-web/target/
+
+# 日志文件
+*.log
