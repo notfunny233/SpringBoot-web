@@ -8,11 +8,11 @@
         <version>4.0.8</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>example</groupId>
-    <artifactId>tlias-web</artifactId>
+    <groupId>tliasadmin</groupId>
+    <artifactId>edu-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tlias-web</name>
-    <description>tlias-web</description>
+    <name>edu-admin</name>
+    <description>教务管理系统后端服务</description>
     <url/>
     <licenses>
         <license/>
