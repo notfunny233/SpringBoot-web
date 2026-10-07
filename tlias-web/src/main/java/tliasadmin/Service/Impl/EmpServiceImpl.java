@@ -63,7 +63,7 @@ public class EmpServiceImpl implements EmpService {
         return new PageResult<Emp>(p.getTotal(), p.getList());
 
     }
-    @Transactional//事务管理
+    @Transactional(rollbackFor = Exception.class)//事务管理
     @Override
     public void save(Emp emp) {
         try {
